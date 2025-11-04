@@ -1,4 +1,5 @@
 import Image from "next/image";
+import '@fontsource/impact';
 
 export default function Home() {
   return (
@@ -16,6 +17,10 @@ export default function Home() {
     <div className="border border-white p-5">Agent Implementation</div>
     <div className="border border-white p-5">Testimonials</div>
   </div>
+  <section className="p-12 bg-[#001F3F] text-white text-center">
+  <h2 className="text-3xl font-bold">Contact Us</h2>
+  <a href="mailto:support@charlieparker.com" className="bg-[#E31C25] text-white px-6 py-3 mt-6 rounded inline-block">Send Email Consultation Request</a>
+</section>
 </section>
       </main>
     </div>
