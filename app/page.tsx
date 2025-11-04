@@ -1,4 +1,3 @@
-import '@fontsource/impact';
 
 export default function Home() {
   return (
